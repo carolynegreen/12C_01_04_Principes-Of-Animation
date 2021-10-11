@@ -1,0 +1,14 @@
+section:not(.active) {
+  transform: translateX(-108%);
+}
+
+.active {
+  transition: transform 2s cubic-bezier(0, 0.9, 0.5, 1);
+  transform: translateX(0);
+}
+nav a {
+  filter: grayscale(1);
+}
+nav a:hover {
+  filter: grayscale(0);
+}

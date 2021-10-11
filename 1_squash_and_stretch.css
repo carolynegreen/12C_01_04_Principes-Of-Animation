@@ -1,0 +1,59 @@
+#container {
+  animation: bounce 6s infinite;
+  animation-timing-function: linear;
+}
+
+#ball {
+  animation: squash 6s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes squash {
+  20% {
+    transform: scaleX(2);
+  }
+  40% {
+    transform: scaleX(1);
+  }
+  60% {
+    transform: scaleX(2);
+  }
+  80% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(2);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    width: 10vw;
+    height: 10vw;
+  }
+  20% {
+    transform: translateY(67vh) translateX(8vw);
+    width: 13vw;
+    height: 7vw;
+  }
+  40% {
+    transform: translateY(20vh) translateX(20vw);
+    width: 10vw;
+    height: 10vw;
+  }
+  60% {
+    transform: translateY(67vh) translateX(30vw);
+    width: 13vw;
+    height: 7vw;
+  }
+  80% {
+    transform: translateY(40vh) translateX(40vw);
+    width: 10vw;
+    height: 10vw;
+  }
+  100% {
+    transform: translateY(67vh) translateX(50vw);
+    width: 13vw;
+    height: 7vw;
+  }
+}

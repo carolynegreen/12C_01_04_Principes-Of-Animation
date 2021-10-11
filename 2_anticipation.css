@@ -1,0 +1,12 @@
+.disappear {
+  animation: disappear 2s cubic-bezier(0.3, -0.1, 0.2, 0) 1;
+}
+
+@keyframes disappear {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50vw);
+  }
+}

@@ -1,0 +1,53 @@
+#container {
+  animation: move_right 2.58s linear infinite;
+}
+
+@keyframes move_right {
+  0% {
+    transform: translate(-2.5vw);
+  }
+  100% {
+    transform: translate(48vw);
+  }
+}
+
+#ball {
+  width: 5vw;
+  height: 5vw;
+  animation: bounce 2.58s ease-in infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(6vw);
+    animation-timing-function: ease-in;
+  }
+  35% {
+    transform: translateY(31vw);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(13vw);
+    animation-timing-function: ease-in;
+  }
+  63% {
+    transform: translateY(31vw);
+    animation-timing-function: ease-out;
+  }
+  70% {
+    transform: translateY(20vw);
+    animation-timing-function: ease-in;
+  }
+  83% {
+    transform: translateY(31vw);
+    animation-timing-function: ease-out;
+  }
+  90% {
+    transform: translateY(25vw);
+    animation-timing-function: ease-in;
+  }
+  99% {
+    transform: translateY(31vw);
+    animation-timing-function: ease-out;
+  }
+}
