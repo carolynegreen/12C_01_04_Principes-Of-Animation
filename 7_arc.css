@@ -1,0 +1,10 @@
+.addtocart {
+  animation: arc 2s ease-in-out;
+  offset-path: path("m 0 0, c 10 -250, 200 -350, 250 -140");
+}
+
+@keyframes arc {
+  100% {
+    offset-distance: 100%;
+  }
+}

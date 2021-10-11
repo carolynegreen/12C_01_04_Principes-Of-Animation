@@ -1,0 +1,25 @@
+.linear {
+  animation: move 2s linear infinite;
+}
+
+.ease {
+  animation: move 2s ease infinite;
+}
+
+.ease-in {
+  animation: move 2s ease-in infinite;
+}
+
+.ease-out {
+  animation: move 2s ease-out infinite;
+}
+
+.ease-in-out {
+  animation: move 2s ease-in-out infinite;
+}
+
+@keyframes move {
+  100% {
+    transform: translateX(400%);
+  }
+}

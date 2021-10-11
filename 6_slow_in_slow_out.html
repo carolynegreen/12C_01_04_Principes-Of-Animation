@@ -13,7 +13,14 @@
       <div>
         <h1>Slow in, slow out</h1>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/fQBFsTqbKhY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/fQBFsTqbKhY"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
         <dl>
           <dt>Classic example:</dt>
           <dd>A character that starts running, slow start, then fast.</dd>
@@ -23,7 +30,10 @@
           <dt>Connections:</dt>
           <dd>Always connected with timing!</dd>
           <dt>Typical CSS</dt>
-          <dd><code>animation-timing-function</code> <code>ease-in</code> and <code>ease-out</code></dd>
+          <dd>
+            <code>animation-timing-function</code> <code>ease-in</code> and
+            <code>ease-out</code>
+          </dd>
           <dt>Pros</dt>
           <dd>Makes things look less mechanical</dd>
           <dt>Cons</dt>
@@ -48,15 +58,20 @@
           </div>
         </div>
         <p>
-          Add CSS for the <code>.show</code> and <code>.hide</code> classes, so that the nav translates in and out.<br />
-          Use the correct timing-functions, to show and hide (remember slow in, slow out - and ease is the opposite!).<br />
-          If you feel like it, use cubic-bezier timings that add a little anticipation, maybe a little follow through.
+          Add CSS for the <code>.show</code> and <code>.hide</code> classes, so
+          that the nav translates in and out.<br />
+          Use the correct timing-functions, to show and hide (remember slow in,
+          slow out - and ease is the opposite!).<br />
+          If you feel like it, use cubic-bezier timings that add a little
+          anticipation, maybe a little follow through.
         </p>
       </div>
     </div>
 
     <script>
-      document.querySelector(".togglemenu").addEventListener("click", toggleMenu);
+      document
+        .querySelector(".togglemenu")
+        .addEventListener("click", toggleMenu);
 
       let menuactive = true;
 

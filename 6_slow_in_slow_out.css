@@ -1,0 +1,13 @@
+.show {
+  transition: transform 2s cubic-bezier(0.34, 0.03, 0.78, 0.55);
+  transform: translateX(0);
+}
+
+.hide {
+  transition: transform 2s cubic-bezier(0.34, 0.03, 0.78, 0.55);
+  transform: translateX(-100%);
+}
+
+li {
+  list-style: none;
+}
